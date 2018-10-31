@@ -1,0 +1,16 @@
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\bin\Debug\netstandard2.0\AppXamarinDAE.deps.json
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\bin\Debug\netstandard2.0\AppXamarinDAE.dll
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\AppXamarinDAE.csprojAssemblyReference.cache
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\AppXamarinDAE.csproj.CoreCompileInputs.cache
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\AppXamarinDAE.AssemblyInfoInputs.cache
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\AppXamarinDAE.AssemblyInfo.cs
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\Views\Cat_generales\ViCatEdificiosList.xaml.g.cs
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\Views\Navegacion\FicMasterPage.xaml.g.cs
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\Views\Navegacion\FicMasterPageDetail.xaml.g.cs
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\Views\Navegacion\FicMasterPageMaster.xaml.g.cs
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\bin\Debug\netstandard2.0\AppXamarinDAE.pdb
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\XamlC.stamp
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\AppXamarinDAE.dll
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\AppXamarinDAE.pdb

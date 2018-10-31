@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion ="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
+             x:Class="AppXamarinDAE.Views.Cat_generales.ViCatEdificiosList">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            Name="Nuevo"
+            Command="{Binding MetAddConteoICommand}">
+        </ToolbarItem>
+        <ToolbarItem
+            Name="Editar"
+            Command="{Binding MetAddConteoICommand}">
+        </ToolbarItem>
+        <ToolbarItem
+            Name="Detalle"
+            Command="{Binding MetAddConteoICommand}">
+        </ToolbarItem>
+        <ToolbarItem
+            Name="Eliminar"
+            Command="{Binding MetAddConteoICommand}">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <SearchBar
+                HorizontalOptions="FillAndExpand"
+                Placeholder="Filtrar información"
+                PlaceholderColor="Red"
+                x:Name="SearchBar">
+            </SearchBar>
+
+            <syncfusion:SfDataGrid
+                VerticalOptions="FillAndExpand"
+                ColumnSizer="Star"
+                AutoGenerateColumns="False"
+                AllowSorting="False"
+                ItemsSource="{Binding SfDataGrid_ItemSource_}"
+                SelectedItem="{Binding SfDataGrid_SelectItem_}"
+                SelectionMode="Single">
+                <syncfusion:SfDataGrid.Columns x:TypeArguments="syncfusion:Columns">
+                    <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="ID" MappingName="IdEdificio"/>
+                    <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="ID" MappingName="IdEdificio"/>
+                    <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="ID" MappingName="IdEdificio"/>
+                    <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="ID" MappingName="IdEdificio"/>
+                    <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="ID" MappingName="IdEdificio"/>
+                </syncfusion:SfDataGrid.Columns>
+            </syncfusion:SfDataGrid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
