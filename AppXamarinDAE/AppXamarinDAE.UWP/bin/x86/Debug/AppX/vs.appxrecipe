@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-31T20:25:50.484</Modified>
+      <Modified>2018-11-05T20:44:06.671</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\AppXamarinDAE.UWP.exe">
       <PackagePath>entrypoint\AppXamarinDAE.UWP.exe</PackagePath>
-      <Modified>2018-10-31T20:25:46.867</Modified>
+      <Modified>2018-11-05T20:44:02.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\autofac\4.8.1\lib\netstandard1.1\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -779,49 +779,41 @@
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
       <Modified>2018-05-02T17:44:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.licensing\16.3.0.21\lib\uap10.0\Syncfusion.Licensing.dll">
-      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
-      <Modified>2018-09-21T18:39:06.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.core\16.3.0.21\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
-      <PackagePath>Syncfusion.Core.XForms.UWP.dll</PackagePath>
-      <Modified>2018-09-22T06:02:06.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.core\16.3.0.21\lib\uap10.0\Syncfusion.Core.XForms.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.core\15.4.0.20\lib\uap10.0\Syncfusion.Core.XForms.dll">
       <PackagePath>Syncfusion.Core.XForms.dll</PackagePath>
-      <Modified>2018-09-22T06:02:06.000</Modified>
+      <Modified>2017-12-28T20:50:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.gridcommon\16.3.0.21\lib\uap10.0\Syncfusion.GridCommon.Portable.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.gridcommon\15.4.0.20\lib\uap10.0\Syncfusion.GridCommon.Portable.dll">
       <PackagePath>Syncfusion.GridCommon.Portable.dll</PackagePath>
-      <Modified>2018-09-18T05:05:30.000</Modified>
+      <Modified>2017-12-28T20:50:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfdatagrid\16.3.0.21\lib\uap10.0\Syncfusion.Data.Portable.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfdatagrid\15.4.0.20\lib\uap10.0\Syncfusion.Data.Portable.dll">
       <PackagePath>Syncfusion.Data.Portable.dll</PackagePath>
-      <Modified>2018-09-18T05:05:38.000</Modified>
+      <Modified>2017-12-28T20:49:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfdatagrid\16.3.0.21\lib\uap10.0\Syncfusion.SfDataGrid.XForms.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfdatagrid\15.4.0.20\lib\uap10.0\Syncfusion.SfDataGrid.XForms.UWP.dll">
       <PackagePath>Syncfusion.SfDataGrid.XForms.UWP.dll</PackagePath>
-      <Modified>2018-09-19T15:05:48.000</Modified>
+      <Modified>2017-12-28T20:49:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfdatagrid\16.3.0.21\lib\uap10.0\Syncfusion.SfDataGrid.XForms.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfdatagrid\15.4.0.20\lib\uap10.0\Syncfusion.SfDataGrid.XForms.dll">
       <PackagePath>Syncfusion.SfDataGrid.XForms.dll</PackagePath>
-      <Modified>2018-09-19T15:05:18.000</Modified>
+      <Modified>2017-12-28T20:49:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfInput.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfInput.UWP.dll">
       <PackagePath>Syncfusion.SfInput.UWP.dll</PackagePath>
-      <Modified>2018-09-18T04:50:56.000</Modified>
+      <Modified>2017-12-28T20:49:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfNumericTextBox.XForms.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfNumericTextBox.XForms.UWP.dll">
       <PackagePath>Syncfusion.SfNumericTextBox.XForms.UWP.dll</PackagePath>
-      <Modified>2018-09-18T05:32:38.000</Modified>
+      <Modified>2017-12-28T20:49:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfNumericTextBox.XForms.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfNumericTextBox.XForms.dll">
       <PackagePath>Syncfusion.SfNumericTextBox.XForms.dll</PackagePath>
-      <Modified>2018-09-18T05:32:18.000</Modified>
+      <Modified>2017-12-28T20:49:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfShared.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfShared.UWP.dll">
       <PackagePath>Syncfusion.SfShared.UWP.dll</PackagePath>
-      <Modified>2018-09-18T04:50:34.000</Modified>
+      <Modified>2017-12-28T20:49:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\system.collections.immutable\1.5.0\lib\netstandard2.0\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
@@ -861,7 +853,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\bin\Debug\netstandard2.0\AppXamarinDAE.dll">
       <PackagePath>AppXamarinDAE.dll</PackagePath>
-      <Modified>2018-10-31T20:25:26.947</Modified>
+      <Modified>2018-11-05T20:43:34.609</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -1008,59 +1000,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-10-31T20:25:46.252</Modified>
+      <Modified>2018-11-05T20:44:01.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-10-31T20:25:46.253</Modified>
+      <Modified>2018-11-05T20:44:01.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-09-28T23:28:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.core\16.3.0.21\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
-      <PackagePath>Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml</PackagePath>
-      <Modified>2018-09-22T06:02:06.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.core\16.3.0.21\lib\uap10.0\Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleCollapsedIcon.xbf">
-      <PackagePath>Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleCollapsedIcon.xbf</PackagePath>
-      <Modified>2018-09-22T06:02:06.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.core\16.3.0.21\lib\uap10.0\Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleVisibleIcon.xbf">
-      <PackagePath>Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleVisibleIcon.xbf</PackagePath>
-      <Modified>2018-09-22T06:02:06.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml">
       <PackagePath>Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml</PackagePath>
-      <Modified>2018-09-18T04:50:56.000</Modified>
+      <Modified>2017-12-28T20:49:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml">
       <PackagePath>Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml</PackagePath>
-      <Modified>2018-09-04T19:27:12.000</Modified>
+      <Modified>2017-12-28T20:49:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfInput.UWP\Themes\generic.xbf">
-      <PackagePath>Syncfusion.SfInput.UWP\Themes\generic.xbf</PackagePath>
-      <Modified>2018-09-18T04:51:08.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfInput.UWP\DeviceFamily-Mobile\Themes\InputStyles.xbf">
-      <PackagePath>Syncfusion.SfInput.UWP\DeviceFamily-Mobile\Themes\InputStyles.xbf</PackagePath>
-      <Modified>2018-09-18T04:51:08.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfInput.UWP\Themes\InputStyles.xbf">
-      <PackagePath>Syncfusion.SfInput.UWP\Themes\InputStyles.xbf</PackagePath>
-      <Modified>2018-09-18T04:51:08.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml">
       <PackagePath>Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml</PackagePath>
-      <Modified>2018-09-18T04:50:34.000</Modified>
+      <Modified>2017-12-28T20:49:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml">
       <PackagePath>Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml</PackagePath>
-      <Modified>2018-09-04T19:26:34.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfShared.UWP\Themes\generic.xbf">
-      <PackagePath>Syncfusion.SfShared.UWP\Themes\generic.xbf</PackagePath>
-      <Modified>2018-09-18T04:50:40.000</Modified>
+      <Modified>2017-12-28T20:49:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\xamarin.forms\3.2.0.871581\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
@@ -1069,11 +1033,11 @@
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-31T14:50:21.075</Modified>
+      <Modified>2018-11-05T19:59:09.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\Core\AppXamarinDAE.UWP.exe">
       <PackagePath>AppXamarinDAE.UWP.exe</PackagePath>
-      <Modified>2018-10-31T20:25:50.472</Modified>
+      <Modified>2018-11-05T20:44:06.641</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

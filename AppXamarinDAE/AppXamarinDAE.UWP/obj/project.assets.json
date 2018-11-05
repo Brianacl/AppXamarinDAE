@@ -704,30 +704,16 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.3.0.21": {
+      "Syncfusion.Xamarin.Core/15.4.0.20": {
         "type": "package",
         "compile": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Core/16.3.0.21": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21"
-        },
-        "compile": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/16.3.0.21": {
+      "Syncfusion.Xamarin.GridCommon/15.4.0.20": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
@@ -736,13 +722,12 @@
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/16.3.0.21": {
+      "Syncfusion.Xamarin.SfDataGrid/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
-          "Syncfusion.Xamarin.Core": "16.3.0.21",
-          "Syncfusion.Xamarin.GridCommon": "16.3.0.21",
-          "Syncfusion.Xamarin.SfNumericTextBox": "16.3.0.21",
+          "Syncfusion.Xamarin.Core": "15.4.0.20",
+          "Syncfusion.Xamarin.GridCommon": "15.4.0.20",
+          "Syncfusion.Xamarin.SfNumericTextBox": "15.4.0.20",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -756,10 +741,9 @@
           "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/16.3.0.21": {
+      "Syncfusion.Xamarin.SfNumericTextBox/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -1450,7 +1434,7 @@
           "Autofac": "4.8.1",
           "Microsoft.EntityFrameworkCore": "2.1.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.4",
-          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.21",
+          "Syncfusion.Xamarin.SfDataGrid": "15.4.0.20",
           "System.Net.Http": "4.3.4",
           "Xamarin.Forms": "3.2.0.871581"
         },
@@ -2504,30 +2488,16 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.3.0.21": {
+      "Syncfusion.Xamarin.Core/15.4.0.20": {
         "type": "package",
         "compile": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Core/16.3.0.21": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21"
-        },
-        "compile": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/16.3.0.21": {
+      "Syncfusion.Xamarin.GridCommon/15.4.0.20": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
@@ -2536,13 +2506,12 @@
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/16.3.0.21": {
+      "Syncfusion.Xamarin.SfDataGrid/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
-          "Syncfusion.Xamarin.Core": "16.3.0.21",
-          "Syncfusion.Xamarin.GridCommon": "16.3.0.21",
-          "Syncfusion.Xamarin.SfNumericTextBox": "16.3.0.21",
+          "Syncfusion.Xamarin.Core": "15.4.0.20",
+          "Syncfusion.Xamarin.GridCommon": "15.4.0.20",
+          "Syncfusion.Xamarin.SfNumericTextBox": "15.4.0.20",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -2556,10 +2525,9 @@
           "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/16.3.0.21": {
+      "Syncfusion.Xamarin.SfNumericTextBox/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -3248,7 +3216,7 @@
           "Autofac": "4.8.1",
           "Microsoft.EntityFrameworkCore": "2.1.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.4",
-          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.21",
+          "Syncfusion.Xamarin.SfDataGrid": "15.4.0.20",
           "System.Net.Http": "4.3.4",
           "Xamarin.Forms": "3.2.0.871581"
         },
@@ -4354,30 +4322,16 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.3.0.21": {
+      "Syncfusion.Xamarin.Core/15.4.0.20": {
         "type": "package",
         "compile": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Core/16.3.0.21": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21"
-        },
-        "compile": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/16.3.0.21": {
+      "Syncfusion.Xamarin.GridCommon/15.4.0.20": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
@@ -4386,13 +4340,12 @@
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/16.3.0.21": {
+      "Syncfusion.Xamarin.SfDataGrid/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
-          "Syncfusion.Xamarin.Core": "16.3.0.21",
-          "Syncfusion.Xamarin.GridCommon": "16.3.0.21",
-          "Syncfusion.Xamarin.SfNumericTextBox": "16.3.0.21",
+          "Syncfusion.Xamarin.Core": "15.4.0.20",
+          "Syncfusion.Xamarin.GridCommon": "15.4.0.20",
+          "Syncfusion.Xamarin.SfNumericTextBox": "15.4.0.20",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -4406,10 +4359,9 @@
           "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/16.3.0.21": {
+      "Syncfusion.Xamarin.SfNumericTextBox/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -5145,7 +5097,7 @@
           "Autofac": "4.8.1",
           "Microsoft.EntityFrameworkCore": "2.1.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.4",
-          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.21",
+          "Syncfusion.Xamarin.SfDataGrid": "15.4.0.20",
           "System.Net.Http": "4.3.4",
           "Xamarin.Forms": "3.2.0.871581"
         },
@@ -6021,30 +5973,16 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.3.0.21": {
+      "Syncfusion.Xamarin.Core/15.4.0.20": {
         "type": "package",
         "compile": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Core/16.3.0.21": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21"
-        },
-        "compile": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/16.3.0.21": {
+      "Syncfusion.Xamarin.GridCommon/15.4.0.20": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
@@ -6053,13 +5991,12 @@
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/16.3.0.21": {
+      "Syncfusion.Xamarin.SfDataGrid/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
-          "Syncfusion.Xamarin.Core": "16.3.0.21",
-          "Syncfusion.Xamarin.GridCommon": "16.3.0.21",
-          "Syncfusion.Xamarin.SfNumericTextBox": "16.3.0.21",
+          "Syncfusion.Xamarin.Core": "15.4.0.20",
+          "Syncfusion.Xamarin.GridCommon": "15.4.0.20",
+          "Syncfusion.Xamarin.SfNumericTextBox": "15.4.0.20",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -6073,10 +6010,9 @@
           "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/16.3.0.21": {
+      "Syncfusion.Xamarin.SfNumericTextBox/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -6765,7 +6701,7 @@
           "Autofac": "4.8.1",
           "Microsoft.EntityFrameworkCore": "2.1.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.4",
-          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.21",
+          "Syncfusion.Xamarin.SfDataGrid": "15.4.0.20",
           "System.Net.Http": "4.3.4",
           "Xamarin.Forms": "3.2.0.871581"
         },
@@ -7819,30 +7755,16 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.3.0.21": {
+      "Syncfusion.Xamarin.Core/15.4.0.20": {
         "type": "package",
         "compile": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Core/16.3.0.21": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21"
-        },
-        "compile": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/16.3.0.21": {
+      "Syncfusion.Xamarin.GridCommon/15.4.0.20": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
@@ -7851,13 +7773,12 @@
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/16.3.0.21": {
+      "Syncfusion.Xamarin.SfDataGrid/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
-          "Syncfusion.Xamarin.Core": "16.3.0.21",
-          "Syncfusion.Xamarin.GridCommon": "16.3.0.21",
-          "Syncfusion.Xamarin.SfNumericTextBox": "16.3.0.21",
+          "Syncfusion.Xamarin.Core": "15.4.0.20",
+          "Syncfusion.Xamarin.GridCommon": "15.4.0.20",
+          "Syncfusion.Xamarin.SfNumericTextBox": "15.4.0.20",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -7871,10 +7792,9 @@
           "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/16.3.0.21": {
+      "Syncfusion.Xamarin.SfNumericTextBox/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -8563,7 +8483,7 @@
           "Autofac": "4.8.1",
           "Microsoft.EntityFrameworkCore": "2.1.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.4",
-          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.21",
+          "Syncfusion.Xamarin.SfDataGrid": "15.4.0.20",
           "System.Net.Http": "4.3.4",
           "Xamarin.Forms": "3.2.0.871581"
         },
@@ -9669,30 +9589,16 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.3.0.21": {
+      "Syncfusion.Xamarin.Core/15.4.0.20": {
         "type": "package",
         "compile": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Core/16.3.0.21": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21"
-        },
-        "compile": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/16.3.0.21": {
+      "Syncfusion.Xamarin.GridCommon/15.4.0.20": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
@@ -9701,13 +9607,12 @@
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/16.3.0.21": {
+      "Syncfusion.Xamarin.SfDataGrid/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
-          "Syncfusion.Xamarin.Core": "16.3.0.21",
-          "Syncfusion.Xamarin.GridCommon": "16.3.0.21",
-          "Syncfusion.Xamarin.SfNumericTextBox": "16.3.0.21",
+          "Syncfusion.Xamarin.Core": "15.4.0.20",
+          "Syncfusion.Xamarin.GridCommon": "15.4.0.20",
+          "Syncfusion.Xamarin.SfNumericTextBox": "15.4.0.20",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -9721,10 +9626,9 @@
           "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/16.3.0.21": {
+      "Syncfusion.Xamarin.SfNumericTextBox/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -10460,7 +10364,7 @@
           "Autofac": "4.8.1",
           "Microsoft.EntityFrameworkCore": "2.1.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.4",
-          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.21",
+          "Syncfusion.Xamarin.SfDataGrid": "15.4.0.20",
           "System.Net.Http": "4.3.4",
           "Xamarin.Forms": "3.2.0.871581"
         },
@@ -11514,30 +11418,16 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.3.0.21": {
+      "Syncfusion.Xamarin.Core/15.4.0.20": {
         "type": "package",
         "compile": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Core/16.3.0.21": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21"
-        },
-        "compile": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/16.3.0.21": {
+      "Syncfusion.Xamarin.GridCommon/15.4.0.20": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
@@ -11546,13 +11436,12 @@
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/16.3.0.21": {
+      "Syncfusion.Xamarin.SfDataGrid/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
-          "Syncfusion.Xamarin.Core": "16.3.0.21",
-          "Syncfusion.Xamarin.GridCommon": "16.3.0.21",
-          "Syncfusion.Xamarin.SfNumericTextBox": "16.3.0.21",
+          "Syncfusion.Xamarin.Core": "15.4.0.20",
+          "Syncfusion.Xamarin.GridCommon": "15.4.0.20",
+          "Syncfusion.Xamarin.SfNumericTextBox": "15.4.0.20",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -11566,10 +11455,9 @@
           "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/16.3.0.21": {
+      "Syncfusion.Xamarin.SfNumericTextBox/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -12258,7 +12146,7 @@
           "Autofac": "4.8.1",
           "Microsoft.EntityFrameworkCore": "2.1.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.4",
-          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.21",
+          "Syncfusion.Xamarin.SfDataGrid": "15.4.0.20",
           "System.Net.Http": "4.3.4",
           "Xamarin.Forms": "3.2.0.871581"
         },
@@ -13364,30 +13252,16 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.3.0.21": {
+      "Syncfusion.Xamarin.Core/15.4.0.20": {
         "type": "package",
         "compile": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Core/16.3.0.21": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21"
-        },
-        "compile": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
           "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/16.3.0.21": {
+      "Syncfusion.Xamarin.GridCommon/15.4.0.20": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
@@ -13396,13 +13270,12 @@
           "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/16.3.0.21": {
+      "Syncfusion.Xamarin.SfDataGrid/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
-          "Syncfusion.Xamarin.Core": "16.3.0.21",
-          "Syncfusion.Xamarin.GridCommon": "16.3.0.21",
-          "Syncfusion.Xamarin.SfNumericTextBox": "16.3.0.21",
+          "Syncfusion.Xamarin.Core": "15.4.0.20",
+          "Syncfusion.Xamarin.GridCommon": "15.4.0.20",
+          "Syncfusion.Xamarin.SfNumericTextBox": "15.4.0.20",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -13416,10 +13289,9 @@
           "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/16.3.0.21": {
+      "Syncfusion.Xamarin.SfNumericTextBox/15.4.0.20": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -14155,7 +14027,7 @@
           "Autofac": "4.8.1",
           "Microsoft.EntityFrameworkCore": "2.1.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.4",
-          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.21",
+          "Syncfusion.Xamarin.SfDataGrid": "15.4.0.20",
           "System.Net.Http": "4.3.4",
           "Xamarin.Forms": "3.2.0.871581"
         },
@@ -18997,73 +18869,32 @@
         "sqlitepclraw.provider.e_sqlite3.uwp10.nuspec"
       ]
     },
-    "Syncfusion.Licensing/16.3.0.21": {
-      "sha512": "3eUgJfio0CJDZfelQcZPKe6jpC670ysA6tbDda3ZjvnqYr7rDnMlRlOFWeyXgKrc4X0UZpS8eitIlBrb3F6SaA==",
+    "Syncfusion.Xamarin.Core/15.4.0.20": {
+      "sha512": "Gg7o8wQqjpkobfSFFRoMavXlTakXPitT8plNlpe9Y8FC60hl2yJJq0k/NZb8VXO1c0D/B84BP4h8OXNXDr7dRQ==",
       "type": "package",
-      "path": "syncfusion.licensing/16.3.0.21",
+      "path": "syncfusion.xamarin.core/15.4.0.20",
       "files": [
-        ".signature.p7s",
-        "lib/MonoAndroid10/Syncfusion.Licensing.dll",
-        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
-        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
-        "lib/net20/Syncfusion.Licensing.dll",
-        "lib/net35/Syncfusion.Licensing.dll",
-        "lib/net40/Syncfusion.Licensing.dll",
-        "lib/net45/Syncfusion.Licensing.dll",
-        "lib/net451/Syncfusion.Licensing.dll",
-        "lib/net46/Syncfusion.Licensing.dll",
-        "lib/netstandard1.0/Syncfusion.Licensing.dll",
-        "lib/netstandard1.2/Syncfusion.Licensing.dll",
-        "lib/netstandard1.4/Syncfusion.Licensing.dll",
-        "lib/netstandard2.0/Syncfusion.Licensing.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
-        "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.16.3.0.21.nupkg.sha512",
-        "syncfusion.licensing.nuspec"
-      ]
-    },
-    "Syncfusion.Xamarin.Core/16.3.0.21": {
-      "sha512": "EFLv200KESWBR9HhsOvh6Vaa9BirzZ0YPL/gmwiuAHx4QWWn/D2h+g5C/pi6zA+25heZx2fSbQWpkG/23ca3rA==",
-      "type": "package",
-      "path": "syncfusion.xamarin.core/16.3.0.21",
-      "files": [
-        ".signature.p7s",
-        "lib/MonoAndroid10/Syncfusion.Core.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.XML",
         "lib/MonoAndroid10/Syncfusion.Core.XForms.dll",
-        "lib/MonoAndroid10/Syncfusion.Core.XForms.xml",
-        "lib/Xamarin.Mac/Syncfusion.Core.XForms.dll",
-        "lib/Xamarin.Mac/Syncfusion.Core.XForms.macOS.dll",
-        "lib/Xamarin.Mac/Syncfusion.Core.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.XML",
         "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll",
-        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll",
-        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.xml",
+        "lib/netstandard1.0/Syncfusion.Core.XForms.XML",
         "lib/netstandard1.0/Syncfusion.Core.XForms.dll",
-        "lib/netstandard1.0/Syncfusion.Core.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.XML",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.xml",
-        "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll",
-        "lib/uap10.0/Syncfusion.Core.XForms.UWP.pri",
-        "lib/uap10.0/Syncfusion.Core.XForms.UWP/Syncfusion.Core.XForms.UWP.xr.xml",
-        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleCollapsedIcon.xaml",
-        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleCollapsedIcon.xbf",
-        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleVisibleIcon.xaml",
-        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleVisibleIcon.xbf",
+        "lib/uap10.0/Syncfusion.Core.XForms.XML",
         "lib/uap10.0/Syncfusion.Core.XForms.dll",
-        "lib/uap10.0/Syncfusion.Core.XForms.xml",
-        "syncfusion.xamarin.core.16.3.0.21.nupkg.sha512",
+        "syncfusion.xamarin.core.15.4.0.20.nupkg.sha512",
         "syncfusion.xamarin.core.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.GridCommon/16.3.0.21": {
-      "sha512": "OI41Grxe4aBS46/MWcFOu0bViVmQu7DeQDlpyiu8TzdqT19r5DMYJiwi2i+1fRTgSPvkN4iFm/m7Ey/HRfd4JA==",
+    "Syncfusion.Xamarin.GridCommon/15.4.0.20": {
+      "sha512": "1yniwfwT2/WBPUcDjmKtLNIV8jOseE3hkNeZ6PSJz7l451c+Np1LkHId7ZKHvDWb5dp9+MOJD/bsBq6Z7m9bAg==",
       "type": "package",
-      "path": "syncfusion.xamarin.gridcommon/16.3.0.21",
+      "path": "syncfusion.xamarin.gridcommon/15.4.0.20",
       "files": [
-        ".signature.p7s",
         "lib/MonoAndroid10/Syncfusion.GridCommon.Portable.XML",
         "lib/MonoAndroid10/Syncfusion.GridCommon.Portable.dll",
-        "lib/Xamarin.Mac/Syncfusion.GridCommon.Portable.XML",
-        "lib/Xamarin.Mac/Syncfusion.GridCommon.Portable.dll",
         "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.XML",
         "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll",
         "lib/netstandard1.0/Syncfusion.GridCommon.Portable.XML",
@@ -19072,26 +18903,20 @@
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.GridCommon.Portable.dll",
         "lib/uap10.0/Syncfusion.GridCommon.Portable.XML",
         "lib/uap10.0/Syncfusion.GridCommon.Portable.dll",
-        "syncfusion.xamarin.gridcommon.16.3.0.21.nupkg.sha512",
+        "syncfusion.xamarin.gridcommon.15.4.0.20.nupkg.sha512",
         "syncfusion.xamarin.gridcommon.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.SfDataGrid/16.3.0.21": {
-      "sha512": "/Um/0dWUJ8U1dovCWNV+M8mkXbUErjdAUSF8+7RhhY//l8FebCV97pYGypmVg8NCZK0U1vMRVhP/fF/waZbu6w==",
+    "Syncfusion.Xamarin.SfDataGrid/15.4.0.20": {
+      "sha512": "MzEMvrQhWXo3UlsSS1Kwv9bgwc86/jfuu5ZVtL9/n9KtMxyCY8HIBNkzcQXPMHEzdgkeqGZzhXM2ozWhwqL0IA==",
       "type": "package",
-      "path": "syncfusion.xamarin.sfdatagrid/16.3.0.21",
+      "path": "syncfusion.xamarin.sfdatagrid/15.4.0.20",
       "files": [
-        ".signature.p7s",
         "lib/MonoAndroid10/Syncfusion.Data.Portable.XML",
         "lib/MonoAndroid10/Syncfusion.Data.Portable.dll",
         "lib/MonoAndroid10/Syncfusion.SfDataGrid.XForms.Android.dll",
         "lib/MonoAndroid10/Syncfusion.SfDataGrid.XForms.dll",
         "lib/MonoAndroid10/Syncfusion.SfDataGrid.XForms.xml",
-        "lib/Xamarin.Mac/Syncfusion.Data.Portable.XML",
-        "lib/Xamarin.Mac/Syncfusion.Data.Portable.dll",
-        "lib/Xamarin.Mac/Syncfusion.SfDataGrid.XForms.dll",
-        "lib/Xamarin.Mac/Syncfusion.SfDataGrid.XForms.macOS.dll",
-        "lib/Xamarin.Mac/Syncfusion.SfDataGrid.XForms.xml",
         "lib/Xamarin.iOS10/Syncfusion.Data.Portable.XML",
         "lib/Xamarin.iOS10/Syncfusion.Data.Portable.dll",
         "lib/Xamarin.iOS10/Syncfusion.SfDataGrid.XForms.dll",
@@ -19110,16 +18935,15 @@
         "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll",
         "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll",
         "lib/uap10.0/Syncfusion.SfDataGrid.XForms.xml",
-        "syncfusion.xamarin.sfdatagrid.16.3.0.21.nupkg.sha512",
+        "syncfusion.xamarin.sfdatagrid.15.4.0.20.nupkg.sha512",
         "syncfusion.xamarin.sfdatagrid.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.SfNumericTextBox/16.3.0.21": {
-      "sha512": "5jkpcn0I5QTmq7ptdQf2TraaVC3l7o4oo/94qmOFNYCq7kMuDlsebPQq5L2h825U9N/yUOHqm7NwZAL5Q66QLg==",
+    "Syncfusion.Xamarin.SfNumericTextBox/15.4.0.20": {
+      "sha512": "tsB8S6rjTUxw/0kZGq6K22gazEP9XIWskcJBdlXEXQUpwrBr5oS28Weoi6BUFQe+Oh5akG4YxC29gt1QK1Ld4A==",
       "type": "package",
-      "path": "syncfusion.xamarin.sfnumerictextbox/16.3.0.21",
+      "path": "syncfusion.xamarin.sfnumerictextbox/15.4.0.20",
       "files": [
-        ".signature.p7s",
         "lib/MonoAndroid10/Syncfusion.SfNumericTextBox.Android.dll",
         "lib/MonoAndroid10/Syncfusion.SfNumericTextBox.XForms.Android.dll",
         "lib/MonoAndroid10/Syncfusion.SfNumericTextBox.XForms.dll",
@@ -19157,7 +18981,7 @@
         "lib/uap10.0/Syncfusion.SfShared.UWP/Syncfusion.SfShared.UWP.xr.xml",
         "lib/uap10.0/Syncfusion.SfShared.UWP/Themes/generic.xaml",
         "lib/uap10.0/Syncfusion.SfShared.UWP/Themes/generic.xbf",
-        "syncfusion.xamarin.sfnumerictextbox.16.3.0.21.nupkg.sha512",
+        "syncfusion.xamarin.sfnumerictextbox.15.4.0.20.nupkg.sha512",
         "syncfusion.xamarin.sfnumerictextbox.nuspec"
       ]
     },
@@ -21635,8 +21459,9 @@
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
       "AppXamarinDAE >= 1.0.0",
+      "Autofac >= 4.8.1",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.5",
-      "Syncfusion.Xamarin.SfDataGrid >= 16.3.0.21",
+      "Syncfusion.Xamarin.SfDataGrid >= 15.4.0.20",
       "Xamarin.Forms >= 3.2.0.871581"
     ]
   },
@@ -21681,13 +21506,17 @@
     "frameworks": {
       "uap10.0.16299": {
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[4.8.1, )"
+          },
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.1.5, )"
           },
           "Syncfusion.Xamarin.SfDataGrid": {
             "target": "Package",
-            "version": "[16.3.0.21, )"
+            "version": "[15.4.0.20, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

@@ -7,7 +7,7 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem
             Name="Nuevo"
-            Command="{Binding MetAddConteoICommand}">
+            Command="{Binding MetAddEdificioICommand}">
         </ToolbarItem>
         <ToolbarItem
             Name="Editar"
@@ -33,19 +33,18 @@
             </SearchBar>
 
             <syncfusion:SfDataGrid
-                VerticalOptions="FillAndExpand"
+                
                 ColumnSizer="Star"
                 AutoGenerateColumns="False"
                 AllowSorting="False"
-                ItemsSource="{Binding SfDataGrid_ItemSource_}"
-                SelectedItem="{Binding SfDataGrid_SelectItem_}"
+                ItemsSource="{Binding FicSfDataGrid_ItemSource_CatEdificios}"
+                SelectedItem="{Binding FicSfDataGrid_SelectItem_CatEdificios}"
                 SelectionMode="Single">
                 <syncfusion:SfDataGrid.Columns x:TypeArguments="syncfusion:Columns">
                     <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="ID" MappingName="IdEdificio"/>
-                    <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="ID" MappingName="IdEdificio"/>
-                    <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="ID" MappingName="IdEdificio"/>
-                    <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="ID" MappingName="IdEdificio"/>
-                    <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="ID" MappingName="IdEdificio"/>
+                    <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="ALIAS" MappingName="Alias"/>
+                    <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="DESCRIPCIÓN" MappingName="DesEdificio"/>
+                    <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="PRIORIDAD" MappingName="Prioridad"/>
                 </syncfusion:SfDataGrid.Columns>
             </syncfusion:SfDataGrid>
         </StackLayout>

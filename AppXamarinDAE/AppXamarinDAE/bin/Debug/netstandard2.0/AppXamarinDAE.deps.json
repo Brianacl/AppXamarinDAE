@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "85f97d73e950def13ad61a9f9aa4bd9f8c90f4d6"
+    "signature": "58b0c767a3d384125fdf72c0b11496d9757c188e"
   },
   "compilationOptions": {},
   "targets": {
@@ -13,7 +13,7 @@
           "Microsoft.EntityFrameworkCore": "2.1.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.4",
           "NETStandard.Library": "2.0.3",
-          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.21",
+          "Syncfusion.Xamarin.SfDataGrid": "15.4.0.20",
           "System.Net.Http": "4.3.4",
           "Xamarin.Forms": "3.2.0.871581"
         },
@@ -321,61 +321,48 @@
           }
         }
       },
-      "Syncfusion.Licensing/16.3.0.21": {
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
-            "assemblyVersion": "16.3.0.21",
-            "fileVersion": "16.3.0.21"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.Core/16.3.0.21": {
-        "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21"
-        },
+      "Syncfusion.Xamarin.Core/15.4.0.20": {
         "runtime": {
           "lib/netstandard1.0/Syncfusion.Core.XForms.dll": {
-            "assemblyVersion": "16.3451.0.21",
-            "fileVersion": "16.3451.0.21"
+            "assemblyVersion": "15.4451.0.20",
+            "fileVersion": "15.4451.0.20"
           }
         }
       },
-      "Syncfusion.Xamarin.GridCommon/16.3.0.21": {
+      "Syncfusion.Xamarin.GridCommon/15.4.0.20": {
         "runtime": {
           "lib/netstandard1.0/Syncfusion.GridCommon.Portable.dll": {
-            "assemblyVersion": "16.3451.0.21",
-            "fileVersion": "16.3451.0.21"
+            "assemblyVersion": "15.4451.0.20",
+            "fileVersion": "15.4451.0.20"
           }
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/16.3.0.21": {
+      "Syncfusion.Xamarin.SfDataGrid/15.4.0.20": {
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
-          "Syncfusion.Xamarin.Core": "16.3.0.21",
-          "Syncfusion.Xamarin.GridCommon": "16.3.0.21",
-          "Syncfusion.Xamarin.SfNumericTextBox": "16.3.0.21",
+          "Syncfusion.Xamarin.Core": "15.4.0.20",
+          "Syncfusion.Xamarin.GridCommon": "15.4.0.20",
+          "Syncfusion.Xamarin.SfNumericTextBox": "15.4.0.20",
           "Xamarin.Forms": "3.2.0.871581"
         },
         "runtime": {
           "lib/netstandard1.0/Syncfusion.Data.Portable.dll": {
-            "assemblyVersion": "16.3451.0.21",
-            "fileVersion": "16.3451.0.21"
+            "assemblyVersion": "15.4451.0.20",
+            "fileVersion": "15.4451.0.20"
           },
           "lib/netstandard1.0/Syncfusion.SfDataGrid.XForms.dll": {
-            "assemblyVersion": "16.3451.0.21",
-            "fileVersion": "16.3451.0.21"
+            "assemblyVersion": "15.4451.0.20",
+            "fileVersion": "15.4451.0.20"
           }
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/16.3.0.21": {
+      "Syncfusion.Xamarin.SfNumericTextBox/15.4.0.20": {
         "dependencies": {
-          "Syncfusion.Licensing": "16.3.0.21",
           "Xamarin.Forms": "3.2.0.871581"
         },
         "runtime": {
           "lib/netstandard1.0/Syncfusion.SfNumericTextBox.XForms.dll": {
-            "assemblyVersion": "16.3451.0.21",
-            "fileVersion": "16.3451.0.21"
+            "assemblyVersion": "15.4451.0.20",
+            "fileVersion": "15.4451.0.20"
           }
         }
       },
@@ -1269,40 +1256,33 @@
       "path": "sqlitepclraw.core/1.1.11",
       "hashPath": "sqlitepclraw.core.1.1.11.nupkg.sha512"
     },
-    "Syncfusion.Licensing/16.3.0.21": {
+    "Syncfusion.Xamarin.Core/15.4.0.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3eUgJfio0CJDZfelQcZPKe6jpC670ysA6tbDda3ZjvnqYr7rDnMlRlOFWeyXgKrc4X0UZpS8eitIlBrb3F6SaA==",
-      "path": "syncfusion.licensing/16.3.0.21",
-      "hashPath": "syncfusion.licensing.16.3.0.21.nupkg.sha512"
+      "sha512": "sha512-Gg7o8wQqjpkobfSFFRoMavXlTakXPitT8plNlpe9Y8FC60hl2yJJq0k/NZb8VXO1c0D/B84BP4h8OXNXDr7dRQ==",
+      "path": "syncfusion.xamarin.core/15.4.0.20",
+      "hashPath": "syncfusion.xamarin.core.15.4.0.20.nupkg.sha512"
     },
-    "Syncfusion.Xamarin.Core/16.3.0.21": {
+    "Syncfusion.Xamarin.GridCommon/15.4.0.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-EFLv200KESWBR9HhsOvh6Vaa9BirzZ0YPL/gmwiuAHx4QWWn/D2h+g5C/pi6zA+25heZx2fSbQWpkG/23ca3rA==",
-      "path": "syncfusion.xamarin.core/16.3.0.21",
-      "hashPath": "syncfusion.xamarin.core.16.3.0.21.nupkg.sha512"
+      "sha512": "sha512-1yniwfwT2/WBPUcDjmKtLNIV8jOseE3hkNeZ6PSJz7l451c+Np1LkHId7ZKHvDWb5dp9+MOJD/bsBq6Z7m9bAg==",
+      "path": "syncfusion.xamarin.gridcommon/15.4.0.20",
+      "hashPath": "syncfusion.xamarin.gridcommon.15.4.0.20.nupkg.sha512"
     },
-    "Syncfusion.Xamarin.GridCommon/16.3.0.21": {
+    "Syncfusion.Xamarin.SfDataGrid/15.4.0.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OI41Grxe4aBS46/MWcFOu0bViVmQu7DeQDlpyiu8TzdqT19r5DMYJiwi2i+1fRTgSPvkN4iFm/m7Ey/HRfd4JA==",
-      "path": "syncfusion.xamarin.gridcommon/16.3.0.21",
-      "hashPath": "syncfusion.xamarin.gridcommon.16.3.0.21.nupkg.sha512"
+      "sha512": "sha512-MzEMvrQhWXo3UlsSS1Kwv9bgwc86/jfuu5ZVtL9/n9KtMxyCY8HIBNkzcQXPMHEzdgkeqGZzhXM2ozWhwqL0IA==",
+      "path": "syncfusion.xamarin.sfdatagrid/15.4.0.20",
+      "hashPath": "syncfusion.xamarin.sfdatagrid.15.4.0.20.nupkg.sha512"
     },
-    "Syncfusion.Xamarin.SfDataGrid/16.3.0.21": {
+    "Syncfusion.Xamarin.SfNumericTextBox/15.4.0.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/Um/0dWUJ8U1dovCWNV+M8mkXbUErjdAUSF8+7RhhY//l8FebCV97pYGypmVg8NCZK0U1vMRVhP/fF/waZbu6w==",
-      "path": "syncfusion.xamarin.sfdatagrid/16.3.0.21",
-      "hashPath": "syncfusion.xamarin.sfdatagrid.16.3.0.21.nupkg.sha512"
-    },
-    "Syncfusion.Xamarin.SfNumericTextBox/16.3.0.21": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-5jkpcn0I5QTmq7ptdQf2TraaVC3l7o4oo/94qmOFNYCq7kMuDlsebPQq5L2h825U9N/yUOHqm7NwZAL5Q66QLg==",
-      "path": "syncfusion.xamarin.sfnumerictextbox/16.3.0.21",
-      "hashPath": "syncfusion.xamarin.sfnumerictextbox.16.3.0.21.nupkg.sha512"
+      "sha512": "sha512-tsB8S6rjTUxw/0kZGq6K22gazEP9XIWskcJBdlXEXQUpwrBr5oS28Weoi6BUFQe+Oh5akG4YxC29gt1QK1Ld4A==",
+      "path": "syncfusion.xamarin.sfnumerictextbox/15.4.0.20",
+      "hashPath": "syncfusion.xamarin.sfnumerictextbox.15.4.0.20.nupkg.sha512"
     },
     "System.Buffers/4.4.0": {
       "type": "package",

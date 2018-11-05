@@ -1,0 +1,1 @@
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\AppXamarinDAE.UWP.csproj;x64

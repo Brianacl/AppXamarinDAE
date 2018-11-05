@@ -3280,12 +3280,13 @@ containing a value of this type.
         public static int notification_template_media_custom=0x7f04003b;
         public static int notification_template_part_chronometer=0x7f04003c;
         public static int notification_template_part_time=0x7f04003d;
-        public static int select_dialog_item_material=0x7f04003e;
-        public static int select_dialog_multichoice_material=0x7f04003f;
-        public static int select_dialog_singlechoice_material=0x7f040040;
-        public static int support_simple_spinner_dropdown_item=0x7f040041;
-        public static int tabbar=0x7f040042;
-        public static int toolbar=0x7f040043;
+        public static int scrollviewer=0x7f04003e;
+        public static int select_dialog_item_material=0x7f04003f;
+        public static int select_dialog_multichoice_material=0x7f040040;
+        public static int select_dialog_singlechoice_material=0x7f040041;
+        public static int support_simple_spinner_dropdown_item=0x7f040042;
+        public static int tabbar=0x7f040043;
+        public static int toolbar=0x7f040044;
     }
     public static final class mipmap {
         public static int icon=0x7f030000;
@@ -3326,6 +3327,7 @@ containing a value of this type.
         public static int appbar_scrolling_view_behavior=0x7f0a0036;
         public static int bottom_sheet_behavior=0x7f0a0037;
         public static int character_counter_pattern=0x7f0a0038;
+        public static int library_name=0x7f0a003e;
         public static int mr_button_content_description=0x7f0a0000;
         public static int mr_cast_button_connected=0x7f0a0001;
         public static int mr_cast_button_connecting=0x7f0a0002;

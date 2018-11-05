@@ -583,37 +583,31 @@
     <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.11\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.licensing\16.3.0.21\lib\uap10.0\Syncfusion.Licensing.dll">
-      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.core\16.3.0.21\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
-      <PackagePath>Syncfusion.Core.XForms.UWP.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.core\16.3.0.21\lib\uap10.0\Syncfusion.Core.XForms.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.core\15.4.0.20\lib\uap10.0\Syncfusion.Core.XForms.dll">
       <PackagePath>Syncfusion.Core.XForms.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.gridcommon\16.3.0.21\lib\uap10.0\Syncfusion.GridCommon.Portable.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.gridcommon\15.4.0.20\lib\uap10.0\Syncfusion.GridCommon.Portable.dll">
       <PackagePath>Syncfusion.GridCommon.Portable.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfdatagrid\16.3.0.21\lib\uap10.0\Syncfusion.Data.Portable.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfdatagrid\15.4.0.20\lib\uap10.0\Syncfusion.Data.Portable.dll">
       <PackagePath>Syncfusion.Data.Portable.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfdatagrid\16.3.0.21\lib\uap10.0\Syncfusion.SfDataGrid.XForms.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfdatagrid\15.4.0.20\lib\uap10.0\Syncfusion.SfDataGrid.XForms.UWP.dll">
       <PackagePath>Syncfusion.SfDataGrid.XForms.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfdatagrid\16.3.0.21\lib\uap10.0\Syncfusion.SfDataGrid.XForms.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfdatagrid\15.4.0.20\lib\uap10.0\Syncfusion.SfDataGrid.XForms.dll">
       <PackagePath>Syncfusion.SfDataGrid.XForms.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfInput.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfInput.UWP.dll">
       <PackagePath>Syncfusion.SfInput.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfNumericTextBox.XForms.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfNumericTextBox.XForms.UWP.dll">
       <PackagePath>Syncfusion.SfNumericTextBox.XForms.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfNumericTextBox.XForms.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfNumericTextBox.XForms.dll">
       <PackagePath>Syncfusion.SfNumericTextBox.XForms.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfShared.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfShared.UWP.dll">
       <PackagePath>Syncfusion.SfShared.UWP.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\system.collections.immutable\1.5.0\lib\netstandard2.0\System.Collections.Immutable.dll">
@@ -769,38 +763,17 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.core\16.3.0.21\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
-      <PackagePath>Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.core\16.3.0.21\lib\uap10.0\Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleCollapsedIcon.xbf">
-      <PackagePath>Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleCollapsedIcon.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.core\16.3.0.21\lib\uap10.0\Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleVisibleIcon.xbf">
-      <PackagePath>Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleVisibleIcon.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml">
       <PackagePath>Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml">
       <PackagePath>Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfInput.UWP\Themes\generic.xbf">
-      <PackagePath>Syncfusion.SfInput.UWP\Themes\generic.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfInput.UWP\DeviceFamily-Mobile\Themes\InputStyles.xbf">
-      <PackagePath>Syncfusion.SfInput.UWP\DeviceFamily-Mobile\Themes\InputStyles.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfInput.UWP\Themes\InputStyles.xbf">
-      <PackagePath>Syncfusion.SfInput.UWP\Themes\InputStyles.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml">
       <PackagePath>Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml">
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\15.4.0.20\lib\uap10.0\Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml">
       <PackagePath>Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.3.0.21\lib\uap10.0\Syncfusion.SfShared.UWP\Themes\generic.xbf">
-      <PackagePath>Syncfusion.SfShared.UWP\Themes\generic.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\xamarin.forms\3.2.0.871581\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>

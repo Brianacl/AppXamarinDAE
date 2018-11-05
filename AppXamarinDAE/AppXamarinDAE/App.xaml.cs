@@ -1,14 +1,20 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using AppXamarinDAE.Views.Cat_generales;
 using AppXamarinDAE.Views.Navegacion;
+using AppXamarinDAE.ViewModels.Base;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace AppXamarinDAE
 {
     public partial class App : Application
     {
+        private static FicViewModelLocator FicLocalVmLocator;
+        public static FicViewModelLocator FicVmLocator
+        {
+            get { return FicLocalVmLocator = FicLocalVmLocator ?? new FicViewModelLocator(); }
+        }
+
         public App()
         {
             InitializeComponent();

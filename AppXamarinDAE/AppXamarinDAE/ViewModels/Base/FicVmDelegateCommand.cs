@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
 
-namespace AppCocacolaNayMobiV6.ViewModels.Base
+namespace AppXamarinDAE.ViewModels.Base
 {
     public class FicVmDelegateCommand : ICommand
     {

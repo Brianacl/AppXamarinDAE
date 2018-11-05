@@ -1,14 +1,7 @@
 ﻿using AppXamarinDAE.Views.Cat_generales;
-using AppXamarinDAE.Views.Navegacion;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -52,7 +45,7 @@ namespace AppXamarinDAE.Views.Navegacion
                                                 },
                     new FicMasterPageMenuItem { Id = 0, Title = "Lista edificios",
                                                 Icon ="ficAlmacen20x20.png",
-                                                FicPageName ="FicViCatEdificiosList",
+                                                FicPageName ="ViCatEdificiosList",
                                                 TargetType = typeof(ViCatEdificiosList)
                                                 }
 

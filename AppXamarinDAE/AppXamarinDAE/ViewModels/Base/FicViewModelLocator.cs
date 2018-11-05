@@ -1,12 +1,10 @@
 ﻿using AppXamarinDAE.Interfaces.Navegacion;
+using AppXamarinDAE.Interfaces;
+using AppXamarinDAE.Services;
 using AppXamarinDAE.Services.Navegacion;
-using AppXamarinDAE.ViewModels;
 using Autofac;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace AppCocacolaNayMobiV6.ViewModels.Base
+namespace AppXamarinDAE.ViewModels.Base
 {
     public class FicViewModelLocator
     {
@@ -27,11 +25,13 @@ namespace AppCocacolaNayMobiV6.ViewModels.Base
             FicContainerBuilder.RegisterType<FicVmImportarWebApi>();
             FicContainerBuilder.RegisterType<FicVmExportarWebApi>();*/
             FicContainerBuilder.RegisterType<FicVmCatEdificiosList>();
+
             //------------------------- INTERFACE SERVICES OF THE VIEW MODELS -----------------------------------
             //FIC: se procede a registrar la interface con la que se comunican las ViewModels con los Servicios 
             //para poder ejecutar las tareas (metodos o funciones, etc) del servicio en cuestion.
             //---------------------------------------------------------------------------------------------------
-            FicContainerBuilder.RegisterType<FicSrvNavigationInventario>().As<IFicSrvNavigationInventario>().SingleInstance();
+            FicContainerBuilder.RegisterType<FicSrvNavigationEdificios>().As<IFicSrvNavigationCatEdificios>().SingleInstance();
+            FicContainerBuilder.RegisterType<SrvCatEdificiosList>().As<IFicSrvCatEdificiosList>().SingleInstance();
             /*FicContainerBuilder.RegisterType<FicSrvInventariosList>().As<IFicSrvInventariosList>().SingleInstance();
             FicContainerBuilder.RegisterType<FicSrvInventariosConteosItem>().As<IFicSrvInventariosConteosItem>().SingleInstance();
             FicContainerBuilder.RegisterType<FicSrvInventariosConteoList>().As<IFicSrvInventariosConteoList>().SingleInstance();
