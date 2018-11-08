@@ -28,21 +28,6 @@ namespace AppXamarinDAE.Views.Navegacion
             {
                 MenuItems = new ObservableCollection<FicMasterPageMenuItem>(new[]
                 {
-                    new FicMasterPageMenuItem { Id = 0, Title = "Lista de Inventarios",
-                                                Icon ="ficAlmacen20x20.png",
-                                                FicPageName ="FicViInventariosList"
-                                                //TargetType = typeof(FicViInventariosList)
-                                                },
-                    new FicMasterPageMenuItem { Id = 0, Title = "Importacion Web Api",
-                                                Icon ="ficAlmacen20x20.png",
-                                                FicPageName ="FicViImportarWebApi"
-                                                //TargetType = typeof(FicViImportarWebApi)
-                                                },
-                    new FicMasterPageMenuItem { Id = 0, Title = "Exportar Web Api",
-                                                Icon ="ficAlmacen20x20.png",
-                                                FicPageName ="FicViExportarWebApi"
-                                                //TargetType = typeof(FicViExportarWebApi)
-                                                },
                     new FicMasterPageMenuItem { Id = 0, Title = "Lista edificios",
                                                 Icon ="ficAlmacen20x20.png",
                                                 FicPageName ="ViCatEdificiosList",

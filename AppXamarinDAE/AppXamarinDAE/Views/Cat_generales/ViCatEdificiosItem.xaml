@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppXamarinDAE.Views.Cat_generales.ViCatEdificiosItem">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Nuevo edificio" />
+
+                <Label Text="Alias" />
+                <Entry Text="{Binding Item.Alias}"/>
+
+                <Label Text="Descripción" />
+                <Entry Text="{Binding Item.DesEdificio}"/>
+
+                <Label Text="Prioridad" />
+                <Entry Text="{Binding Item.Prioridad}"/>
+
+                <Label Text="Clave" />
+                <Entry Text="{Binding Item.Clave}"/>
+                
+                <Button Text="Guardar"  Command="{Binding FicMetSaveCommand}"/>
+                <!--<Button Text="Eliminar" Command="{Binding FicMetDeleteCommand}"/>-->
+                <Button Text="Cancelar" Command="{Binding FicMetCancelCommand}"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

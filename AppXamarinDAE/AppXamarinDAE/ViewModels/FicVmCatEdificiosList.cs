@@ -13,11 +13,13 @@ using Xamarin.Forms;
 
 namespace AppXamarinDAE.ViewModels
 {
-    public class FicVmCatEdificiosList : INotifyPropertyChanged
+    public class FicVmCatEdificiosList : FicViewModelBase
     {
         public ObservableCollection<Eva_cat_edificios> _FicSfDataGrid_ItemSource_CatEdificios;
         public Eva_cat_edificios _FicSfDataGrid_SelectItem_CatEdificios;
-        private ICommand _FicMetAddEdificioICommand, _FicMetAcumuladosICommand;
+        private ICommand _FicMetAddEdificioICommand, _FicMetEditEdificioICommand;
+        private ICommand _FicMetDetalleICommand;
+        private ICommand _FicMetDeleteICommand;
 
         private IFicSrvNavigationCatEdificios IFicSrvNavigationCatEdificios;
         private IFicSrvCatEdificiosList IFicSrvCatEdificiosList;
@@ -34,6 +36,15 @@ namespace AppXamarinDAE.ViewModels
             get
             {
                 return _FicSfDataGrid_ItemSource_CatEdificios;
+            }
+
+            set
+            {
+                if (_FicSfDataGrid_ItemSource_CatEdificios != value)
+                {
+                    _FicSfDataGrid_ItemSource_CatEdificios = value;
+                    RaisePropertyChanged("FicSfDataGrid_ItemSource_CatEdificios");
+                }
             }
         }//ESTE APUNTA A TRAVÉS DEL BindingContext AL GRID DE LA VIEW
 
@@ -62,19 +73,79 @@ namespace AppXamarinDAE.ViewModels
             }
         }
 
-        private void FicMetAddEdificio()
+        public ICommand FicMetDeleteICommand
         {
-            if(_FicSfDataGrid_SelectItem_CatEdificios != null)
+            get
             {
-                IFicSrvNavigationCatEdificios.FicMetNavigateTo<FicVmCatEdificiosList>
-                    (_FicSfDataGrid_SelectItem_CatEdificios);
+                return _FicMetDeleteICommand = _FicMetDeleteICommand ??
+                    new FicVmDelegateCommand(FicMetDeleteEdificio);
             }
         }
 
-        public async void OnAppearing()
+        public ICommand FicMetDetalleICommand
+        {
+            get
+            {
+                return _FicMetDetalleICommand = _FicMetDetalleICommand ??
+                    new FicVmDelegateCommand(FicMetDetalleEdificio);
+            }
+        }
+
+        public ICommand FicMetEditarEdificioICommand
+        {
+            get
+            {
+                return _FicMetEditEdificioICommand = _FicMetEditEdificioICommand ??
+                    new FicVmDelegateCommand(FicMetEditEdificio);
+            }
+        }
+
+        private void FicMetAddEdificio()
+        {
+            IFicSrvNavigationCatEdificios.FicMetNavigateTo<FicVmCatEdificiosItem>
+                    (new Eva_cat_edificios());
+        }
+
+        private async void FicMetDeleteEdificio()
         {
             try
             {
+                await IFicSrvCatEdificiosList.FicMetDeleteEdificio(_FicSfDataGrid_SelectItem_CatEdificios);
+                _FicSfDataGrid_SelectItem_CatEdificios = null;
+            }
+            catch (Exception e)
+            {
+                await new Page().DisplayAlert("ALERTA", e.Message.ToString(), "OK");
+            }
+        }
+
+        private async void FicMetEditEdificio()
+        {
+            if (_FicSfDataGrid_SelectItem_CatEdificios != null)
+                IFicSrvNavigationCatEdificios.FicMetNavigateTo<FicVmCatEdificiosItem>
+                    (_FicSfDataGrid_SelectItem_CatEdificios);
+            else
+                await new Page().DisplayAlert("ALERTA", "Para editar,  primero seleccione un registro", "OK");
+        }
+
+        private async void FicMetDetalleEdificio()
+        {
+            if (_FicSfDataGrid_SelectItem_CatEdificios != null)
+            {
+                //System.Diagnostics.Debug.WriteLine(_FicSfDataGrid_SelectItem_CatEdificios.IdEdificio);
+                IFicSrvNavigationCatEdificios.FicMetNavigateTo<FicVmCatEdificiosDetalle>
+                    (_FicSfDataGrid_SelectItem_CatEdificios);
+            }
+            else
+                await new Page().DisplayAlert("ALERTA", "Para editar, primero seleccione un registro", "OK");
+        }
+
+        public async override void OnAppearing(object context)
+        {
+            try
+            {
+                FicSfDataGrid_ItemSource_CatEdificios.Clear();
+
                 var source_local_inv = await IFicSrvCatEdificiosList.FicMetGetListEdificios();
 
                 if (source_local_inv != null)
@@ -90,15 +161,5 @@ namespace AppXamarinDAE.ViewModels
                 await new Page().DisplayAlert("ALERTA", e.Message.ToString(), "OK");
             }
         }//SOBRECARGA AL METODO OnAppearing() DE LA VIEW
-
-        #region INotifyPropertyChanged
-        public event PropertyChangedEventHandler PropertyChanged;
-        public void RaisePropertyChanged([CallerMemberName] string propertyName = "")
-        {
-            var handler = PropertyChanged;
-            if (handler != null)
-                handler(this, new PropertyChangedEventArgs(propertyName));
-        }
-        #endregion
     }
 }

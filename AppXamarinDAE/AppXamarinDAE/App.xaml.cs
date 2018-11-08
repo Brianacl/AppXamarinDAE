@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using AppXamarinDAE.Views.Navegacion;
 using AppXamarinDAE.ViewModels.Base;
+using AppXamarinDAE.Views.Cat_generales;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace AppXamarinDAE

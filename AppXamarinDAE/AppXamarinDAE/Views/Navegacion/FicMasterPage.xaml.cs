@@ -40,12 +40,6 @@ namespace AppXamarinDAE.Views.Navegacion
                     case "FicViExportarWebApi":
                         FicItemMenu.TargetType = typeof(FicViExportarWebApi);
                         break;*/
-                    case "FicMasterPageMaster":
-                        FicItemMenu.TargetType = typeof(FicMasterPageMaster);
-                        break;
-                    case "FicMasterPageDetail":
-                        FicItemMenu.TargetType = typeof(FicMasterPageDetail);
-                        break;
                     case "ViCatEdificiosList":
                         FicItemMenu.TargetType = typeof(ViCatEdificiosList);
                         break;

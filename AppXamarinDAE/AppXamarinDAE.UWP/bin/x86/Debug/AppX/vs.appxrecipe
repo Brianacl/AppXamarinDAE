@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-05T20:44:06.671</Modified>
+      <Modified>2018-11-08T22:27:21.734</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\AppXamarinDAE.UWP.exe">
       <PackagePath>entrypoint\AppXamarinDAE.UWP.exe</PackagePath>
-      <Modified>2018-11-05T20:44:02.720</Modified>
+      <Modified>2018-11-08T22:27:19.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\autofac\4.8.1\lib\netstandard1.1\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -853,7 +853,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\bin\Debug\netstandard2.0\AppXamarinDAE.dll">
       <PackagePath>AppXamarinDAE.dll</PackagePath>
-      <Modified>2018-11-05T20:43:34.609</Modified>
+      <Modified>2018-11-08T22:26:58.507</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\Assets\detalle.png">
+      <PackagePath>Assets\detalle.png</PackagePath>
+      <Modified>2018-11-08T21:15:42.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\Assets\editar.png">
+      <PackagePath>Assets\editar.png</PackagePath>
+      <Modified>2018-11-08T21:15:42.138</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\Assets\ic_add.png">
+      <PackagePath>Assets\ic_add.png</PackagePath>
+      <Modified>2018-11-08T21:15:42.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\Assets\ic_delete.png">
+      <PackagePath>Assets\ic_delete.png</PackagePath>
+      <Modified>2018-11-08T21:15:42.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -1000,11 +1016,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-05T20:44:01.521</Modified>
+      <Modified>2018-11-08T22:27:18.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-05T20:44:01.523</Modified>
+      <Modified>2018-11-08T22:27:18.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1033,11 +1049,11 @@
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-05T19:59:09.632</Modified>
+      <Modified>2018-11-08T21:19:12.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\Core\AppXamarinDAE.UWP.exe">
       <PackagePath>AppXamarinDAE.UWP.exe</PackagePath>
-      <Modified>2018-11-05T20:44:06.641</Modified>
+      <Modified>2018-11-08T22:27:21.713</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -15,8 +15,8 @@ namespace AppXamarinDAE.Services.Navegacion
         { 
             //AQUI SE HACE UNA UNION ENTRE LA VM Y VI DE CADA VIEW DE LA APP
             { typeof(FicVmCatEdificiosList),typeof(ViCatEdificiosList) },
-            //{ typeof(FicVmInventarioConteoList),typeof(FicMasterPageDetail) },
-            //{ typeof(FicVmInventarioConteosItem),typeof(FicMasterPageMaster) },
+            { typeof(FicVmCatEdificiosItem),typeof(ViCatEdificiosItem) },
+            { typeof(FicVmCatEdificiosDetalle),typeof(ViCatEdificiosDetalle) },
         };
 
         #region METODOS DE IMPLEMENTACION DE LA INTERFACE -> IFicSrvNavigationInventario
@@ -46,7 +46,8 @@ namespace AppXamarinDAE.Services.Navegacion
 
                 public void FicMetNavigateBack()
                 {
-                    Application.Current.MainPage.Navigation.PopAsync(true);
+                    var mdp = Application.Current.MainPage as MasterDetailPage;
+                    mdp.Detail.Navigation.PopAsync();
                 }
             #endregion
 

@@ -640,6 +640,18 @@
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\bin\Debug\netstandard2.0\AppXamarinDAE.dll">
       <PackagePath>AppXamarinDAE.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\Assets\detalle.png">
+      <PackagePath>Assets\detalle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\Assets\editar.png">
+      <PackagePath>Assets\editar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\Assets\ic_add.png">
+      <PackagePath>Assets\ic_add.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\Assets\ic_delete.png">
+      <PackagePath>Assets\ic_delete.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

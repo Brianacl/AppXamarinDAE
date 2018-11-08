@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AppXamarinDAE.Models
 {
     public class Eva_cat_edificios
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Int16 IdEdificio { get; set; }
         public string Alias { get; set; }
         public string DesEdificio { get; set; }

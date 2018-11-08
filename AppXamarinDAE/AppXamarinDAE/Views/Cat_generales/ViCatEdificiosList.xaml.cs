@@ -33,7 +33,7 @@ namespace AppXamarinDAE.Views.Cat_generales
             var FicViewModel = BindingContext as FicVmCatEdificiosList;
             if (FicViewModel != null)
             {
-                FicViewModel.OnAppearing();
+                FicViewModel.OnAppearing(null);
             }
         }
 

@@ -25,6 +25,8 @@ namespace AppXamarinDAE.ViewModels.Base
             FicContainerBuilder.RegisterType<FicVmImportarWebApi>();
             FicContainerBuilder.RegisterType<FicVmExportarWebApi>();*/
             FicContainerBuilder.RegisterType<FicVmCatEdificiosList>();
+            FicContainerBuilder.RegisterType<FicVmCatEdificiosItem>();
+            FicContainerBuilder.RegisterType<FicVmCatEdificiosDetalle>();
 
             //------------------------- INTERFACE SERVICES OF THE VIEW MODELS -----------------------------------
             //FIC: se procede a registrar la interface con la que se comunican las ViewModels con los Servicios 
@@ -51,6 +53,16 @@ namespace AppXamarinDAE.ViewModels.Base
         public FicVmCatEdificiosList FicVmCatEdificiosList
         {
             get { return FicIContainer.Resolve<FicVmCatEdificiosList>(); }
+        }
+
+        public FicVmCatEdificiosItem FicVmCatEdificiosItem
+        {
+            get { return FicIContainer.Resolve<FicVmCatEdificiosItem>(); }
+        }
+
+        public FicVmCatEdificiosDetalle FicVmCatEdificiosDetalle
+        {
+            get { return FicIContainer.Resolve<FicVmCatEdificiosDetalle>(); }
         }
 
         /*public FicVmInventariosList FicVmInventariosList
