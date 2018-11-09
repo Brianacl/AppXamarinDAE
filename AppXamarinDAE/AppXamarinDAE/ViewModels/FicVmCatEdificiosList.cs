@@ -43,7 +43,7 @@ namespace AppXamarinDAE.ViewModels
                 if (_FicSfDataGrid_ItemSource_CatEdificios != value)
                 {
                     _FicSfDataGrid_ItemSource_CatEdificios = value;
-                    RaisePropertyChanged("FicSfDataGrid_ItemSource_CatEdificios");
+                    RaisePropertyChanged();
                 }
             }
         }//ESTE APUNTA A TRAVÉS DEL BindingContext AL GRID DE LA VIEW
@@ -110,8 +110,13 @@ namespace AppXamarinDAE.ViewModels
         {
             try
             {
-                await IFicSrvCatEdificiosList.FicMetDeleteEdificio(_FicSfDataGrid_SelectItem_CatEdificios);
-                _FicSfDataGrid_SelectItem_CatEdificios = null;
+                if (_FicSfDataGrid_SelectItem_CatEdificios != null)
+                {
+                    await IFicSrvCatEdificiosList.FicMetDeleteEdificio(_FicSfDataGrid_SelectItem_CatEdificios);
+                    _FicSfDataGrid_SelectItem_CatEdificios = null;
+                }
+                else
+                    await new Page().DisplayAlert("ALERTA", "Para eliminar un registro,  primero seleccione un registro", "OK");
             }
             catch (Exception e)
             {
@@ -137,7 +142,7 @@ namespace AppXamarinDAE.ViewModels
                     (_FicSfDataGrid_SelectItem_CatEdificios);
             }
             else
-                await new Page().DisplayAlert("ALERTA", "Para editar, primero seleccione un registro", "OK");
+                await new Page().DisplayAlert("ALERTA", "Para ver el detalle, primero seleccione un registro", "OK");
         }
 
         public async override void OnAppearing(object context)
@@ -154,7 +159,7 @@ namespace AppXamarinDAE.ViewModels
                     {
                         FicSfDataGrid_ItemSource_CatEdificios.Add(inv);
                     }
-                }//Llena el GRID
+                }//No llena el grid, llena el observableCollection para poder hacer el binding
             }
             catch (Exception e)
             {

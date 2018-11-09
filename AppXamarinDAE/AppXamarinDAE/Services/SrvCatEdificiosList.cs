@@ -39,12 +39,22 @@ namespace AppXamarinDAE.Services
 
                 if (FicSourceEdificioExist == null)
                 {
+
+                    FicMetInsertEdificio.FechaReg = DateTime.Today;
+                    FicMetInsertEdificio.FechaUltMod = DateTime.Today;
+                    FicMetInsertEdificio.UsuarioReg = "Brian Casas";
+                    FicMetInsertEdificio.UsuarioMod = "Brian Casas";
+                    FicMetInsertEdificio.Activo = "S";
+                    FicMetInsertEdificio.Borrado = "N";
+                   
                     await LoDBContext.AddAsync(FicMetInsertEdificio);
 
                 }
                 else
                 {
                     FicMetInsertEdificio.IdEdificio = FicSourceEdificioExist.IdEdificio;
+                    FicMetInsertEdificio.FechaUltMod = DateTime.Today;
+                    LoDBContext.Entry(FicSourceEdificioExist).State = EntityState.Detached;
                     LoDBContext.Update(FicMetInsertEdificio);
                 }
 

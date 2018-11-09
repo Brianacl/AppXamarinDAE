@@ -57,8 +57,6 @@ namespace AppXamarinDAE.ViewModels
             {
                 var FicEdificioSeleccionado = FicPaNavigationContext as Eva_cat_edificios;
 
-
-                System.Diagnostics.Debug.WriteLine("Esta wea --> "+FicEdificioSeleccionado.IdEdificio);
                 if (FicEdificioSeleccionado != null)
                 {
                     Item = FicEdificioSeleccionado;

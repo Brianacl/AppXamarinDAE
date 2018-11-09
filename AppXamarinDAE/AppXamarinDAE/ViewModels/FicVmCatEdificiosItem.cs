@@ -76,9 +76,6 @@ namespace AppXamarinDAE.ViewModels
         {
             try
             {
-                Item.FechaReg = DateTime.Today;
-                Item.FechaUltMod = DateTime.Today;
-
                 await IFicSrvCatEdificiosList.FicMetInsertNewEdificio(Item);
                 IFicSrvNavigationCatEdificios.FicMetNavigateBack();
             }

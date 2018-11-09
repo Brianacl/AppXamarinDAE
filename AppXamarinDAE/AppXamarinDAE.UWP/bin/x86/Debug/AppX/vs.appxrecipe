@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-08T22:27:21.734</Modified>
+      <Modified>2018-11-10T06:35:34.286</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\AppXamarinDAE.UWP.exe">
       <PackagePath>entrypoint\AppXamarinDAE.UWP.exe</PackagePath>
-      <Modified>2018-11-08T22:27:19.128</Modified>
+      <Modified>2018-11-10T06:35:31.344</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\autofac\4.8.1\lib\netstandard1.1\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -853,7 +853,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\bin\Debug\netstandard2.0\AppXamarinDAE.dll">
       <PackagePath>AppXamarinDAE.dll</PackagePath>
-      <Modified>2018-11-08T22:26:58.507</Modified>
+      <Modified>2018-11-09T14:10:09.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\Assets\detalle.png">
       <PackagePath>Assets\detalle.png</PackagePath>
@@ -1016,11 +1016,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-08T22:27:18.528</Modified>
+      <Modified>2018-11-10T06:35:30.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-08T22:27:18.530</Modified>
+      <Modified>2018-11-10T06:35:30.630</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1053,7 +1053,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\Core\AppXamarinDAE.UWP.exe">
       <PackagePath>AppXamarinDAE.UWP.exe</PackagePath>
-      <Modified>2018-11-08T22:27:21.713</Modified>
+      <Modified>2018-11-10T06:35:34.272</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

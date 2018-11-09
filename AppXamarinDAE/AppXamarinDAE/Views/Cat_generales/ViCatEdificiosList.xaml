@@ -11,7 +11,6 @@
 
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="Android, iOS" Value="ic_add.png" />
                     <On Platform="UWP" Value="Assets/ic_add.png" />
                 </OnPlatform>
             </ToolbarItem.Icon>
@@ -22,7 +21,6 @@
 
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="Android, iOS" Value="editar.png" />
                     <On Platform="UWP" Value="Assets/editar.png" />
                 </OnPlatform>
             </ToolbarItem.Icon>
@@ -33,7 +31,6 @@
 
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="Android, iOS" Value="detalle.png" />
                     <On Platform="UWP" Value="Assets/detalle.png" />
                 </OnPlatform>
             </ToolbarItem.Icon>
@@ -44,7 +41,6 @@
 
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="Android, iOS" Value="ic_delete.png" />
                     <On Platform="UWP" Value="Assets/ic_delete.png" />
                 </OnPlatform>
             </ToolbarItem.Icon>
@@ -65,7 +61,8 @@
                 ColumnSizer="Star"
                 AutoGenerateColumns="False"
                 AllowSorting="False"
-                ItemsSource="{Binding FicSfDataGrid_ItemSource_CatEdificios}"
+                ItemsSource="{Binding FicSfDataGrid_ItemSource_CatEdificios,
+                                UpdateSourceEventName=RaisePropertyChanged}"
                 SelectedItem="{Binding FicSfDataGrid_SelectItem_CatEdificios}"
                 SelectionMode="Single">
                 <syncfusion:SfDataGrid.Columns x:TypeArguments="syncfusion:Columns">
