@@ -78,7 +78,8 @@ namespace AppXamarinDAE.Services
                         return;
                     }//BUSCAR SI YA SE INSERTO UN REGISTRO
 
-                        LoDBContext.Remove(deleteEdificio);
+                    LoDBContext.Entry(deleteEdificio).State = EntityState.Detached;
+                    LoDBContext.Remove(deleteEdificio);
                         await LoDBContext.SaveChangesAsync();
 
                         transaction.Commit(); //CONFIRMA/GUARDA
