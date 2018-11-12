@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppXamarinDAE.Views.ImportExportWebAPI.ViImportarWebApi">
+    <ContentPage.Content>
+        <ScrollView >
+
+            <StackLayout Padding="10" Orientation="Vertical">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                    <Entry Text="{Binding FicLabelIdEdificio}"/>
+                    <Button Text="IMP. EDIFICIO POR ID"  Command="{Binding FicMecImportIdEdificio}"/>
+                </StackLayout>
+                <StackLayout Padding="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="LightGray">
+                    <Label Text="{Binding FicTextAreaImpEdificio}" FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout Padding="10" Orientation="Horizontal" VerticalOptions="End" HorizontalOptions="Center">
+                    <Button Text="IMP. CATALOGO EDIFICIOS"  Command="{Binding FicMecImportEdificio}"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

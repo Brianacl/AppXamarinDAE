@@ -10,9 +10,11 @@ C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\Vi
 C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\AppXamarinDAE.csproj.CoreCompileInputs.cache
 C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\AppXamarinDAE.AssemblyInfoInputs.cache
 C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\AppXamarinDAE.AssemblyInfo.cs
-C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\XamlC.stamp
 C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\AppXamarinDAE.dll
 C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\AppXamarinDAE.pdb
 C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\AppXamarinDAE.csprojAssemblyReference.cache
 C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\Views\Cat_generales\ViCatEdificiosItem.xaml.g.cs
 C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\Views\Cat_generales\ViCatEdificiosDetalle.xaml.g.cs
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\Views\ImportExportWebAPI\ViExportarWebApi.xaml.g.cs
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\Views\ImportExportWebAPI\ViImportarWebApi.xaml.g.cs
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\obj\Debug\netstandard2.0\XamlC.stamp

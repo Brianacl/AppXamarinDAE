@@ -1,4 +1,5 @@
 ﻿using AppXamarinDAE.Views.Cat_generales;
+using AppXamarinDAE.Views.ImportExportWebAPI;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -32,6 +33,16 @@ namespace AppXamarinDAE.Views.Navegacion
                                                 Icon ="ficAlmacen20x20.png",
                                                 FicPageName ="ViCatEdificiosList",
                                                 TargetType = typeof(ViCatEdificiosList)
+                                                },
+                    new FicMasterPageMenuItem { Id = 0, Title = "Exportar API",
+                                                Icon ="ficAlmacen20x20.png",
+                                                FicPageName ="ViExportarWebApi",
+                                                TargetType = typeof(ViExportarWebApi)
+                                                },
+                    new FicMasterPageMenuItem { Id = 0, Title = "Importar API",
+                                                Icon ="ficAlmacen20x20.png",
+                                                FicPageName ="ViImportarWebApi",
+                                                TargetType = typeof(ViImportarWebApi)
                                                 }
 
                 });

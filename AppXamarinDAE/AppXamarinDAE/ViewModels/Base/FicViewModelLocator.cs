@@ -3,6 +3,8 @@ using AppXamarinDAE.Interfaces;
 using AppXamarinDAE.Services;
 using AppXamarinDAE.Services.Navegacion;
 using Autofac;
+using AppXamarinDAE.Services.ImportExportWebAPI;
+using AppXamarinDAE.Interfaces.ImportExportWebAPI;
 
 namespace AppXamarinDAE.ViewModels.Base
 {
@@ -18,15 +20,11 @@ namespace AppXamarinDAE.ViewModels.Base
             //-------------------------------- VIEW MODELS ------------------------------------------------------
             //FIC: se procede a registrar las ViewModels para que se puedan mandar llamar en cualquier plataforma
             //---------------------------------------------------------------------------------------------------
-            /*FicContainerBuilder.RegisterType<FicVmInventariosList>();
-            FicContainerBuilder.RegisterType<FicVmInventarioConteoList>();
-            FicContainerBuilder.RegisterType<FicVmInventarioConteosItem>();
-            FicContainerBuilder.RegisterType<FicVmInventarioAcumuladoList>();
-            FicContainerBuilder.RegisterType<FicVmImportarWebApi>();
-            FicContainerBuilder.RegisterType<FicVmExportarWebApi>();*/
             FicContainerBuilder.RegisterType<FicVmCatEdificiosList>();
             FicContainerBuilder.RegisterType<FicVmCatEdificiosItem>();
             FicContainerBuilder.RegisterType<FicVmCatEdificiosDetalle>();
+            FicContainerBuilder.RegisterType<FicVmExportarWebApi>();
+            FicContainerBuilder.RegisterType<FicVmImportarWebApi>();
 
             //------------------------- INTERFACE SERVICES OF THE VIEW MODELS -----------------------------------
             //FIC: se procede a registrar la interface con la que se comunican las ViewModels con los Servicios 
@@ -34,13 +32,8 @@ namespace AppXamarinDAE.ViewModels.Base
             //---------------------------------------------------------------------------------------------------
             FicContainerBuilder.RegisterType<FicSrvNavigationEdificios>().As<IFicSrvNavigationCatEdificios>().SingleInstance();
             FicContainerBuilder.RegisterType<SrvCatEdificiosList>().As<IFicSrvCatEdificiosList>().SingleInstance();
-            /*FicContainerBuilder.RegisterType<FicSrvInventariosList>().As<IFicSrvInventariosList>().SingleInstance();
-            FicContainerBuilder.RegisterType<FicSrvInventariosConteosItem>().As<IFicSrvInventariosConteosItem>().SingleInstance();
-            FicContainerBuilder.RegisterType<FicSrvInventariosConteoList>().As<IFicSrvInventariosConteoList>().SingleInstance();
-            FicContainerBuilder.RegisterType<FicSrvInventarioAcumuladoList>().As<IFicSrvInventarioAcumuladoList>().SingleInstance();
-            FicContainerBuilder.RegisterType<FicSrvImportarWebApi>().As<IFicSrvImportarWebApi>().SingleInstance();
-            FicContainerBuilder.RegisterType<FicSrvExportarWebApi>().As<IFicSrvExportarWebApi>().SingleInstance();
-            */
+            FicContainerBuilder.RegisterType<SrvExportarWebApi>().As<IFicSrvExportarWebApi>().SingleInstance();
+            FicContainerBuilder.RegisterType<SrvImportarWebApi>().As<IFicSrvImportarWebApi>().SingleInstance();
             //FIC: se asigna o se libera el contenedor
             //-------------------------------------------
             if (FicIContainer != null) FicIContainer.Dispose();
@@ -65,35 +58,14 @@ namespace AppXamarinDAE.ViewModels.Base
             get { return FicIContainer.Resolve<FicVmCatEdificiosDetalle>(); }
         }
 
-        /*public FicVmInventariosList FicVmInventariosList
+        public FicVmExportarWebApi FicVmExportarWebApi
         {
-            get { return FicIContainer.Resolve<FicVmInventariosList>(); }
-        }
-
-        public FicVmInventarioConteoList FicVmInventarioConteoList
-        {
-            get { return FicIContainer.Resolve<FicVmInventarioConteoList>(); }
-        }
-        
-        public FicVmInventarioConteosItem FicVmInventarioConteosItem
-        {
-            get { return FicIContainer.Resolve<FicVmInventarioConteosItem>(); }
-        }
-        
-        public FicVmInventarioAcumuladoList FicVmInventarioAcumuladoList
-        {
-            get { return FicIContainer.Resolve<FicVmInventarioAcumuladoList>(); }
+            get { return FicIContainer.Resolve<FicVmExportarWebApi>(); }
         }
 
         public FicVmImportarWebApi FicVmImportarWebApi
         {
             get { return FicIContainer.Resolve<FicVmImportarWebApi>(); }
         }
-
-        public FicVmExportarWebApi FicVmExportarWebApi
-        {
-            get { return FicIContainer.Resolve<FicVmExportarWebApi>(); }
-        }*/
-
-    }//CLASS
+    }//Fin clase
 }//NAMESPACE

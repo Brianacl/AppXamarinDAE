@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>C0567B97D934069CB094D8E262AFB9866C8FF630492CE21CE406E40F27440092</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>A05A60025899FAB51AEB545785DD5C6E46C19994525C2461716074468EF1B871</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6fc32645-cb72-492f-a533-13e541cef867_1.0.0.0_x86__8tfz8ya5keqzc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6fc32645-cb72-492f-a533-13e541cef867_8tfz8ya5keqzc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>6fc32645-cb72-492f-a533-13e541cef867</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-12T00:10:09.607</Modified>
+      <Modified>2018-11-12T21:54:07.811</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\AppXamarinDAE.UWP.exe">
       <PackagePath>entrypoint\AppXamarinDAE.UWP.exe</PackagePath>
-      <Modified>2018-11-12T00:10:01.957</Modified>
+      <Modified>2018-11-12T21:54:03.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\autofac\4.8.1\lib\netstandard1.1\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -106,6 +106,10 @@
     <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\microsoft.extensions.primitives\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
       <Modified>2018-06-07T06:26:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2018-03-25T00:44:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\titab\.nuget\packages\remotion.linq\2.2.0\lib\portable-net45+win+wpa81+wp80\Remotion.Linq.dll">
       <PackagePath>Remotion.Linq.dll</PackagePath>
@@ -853,7 +857,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE\bin\Debug\netstandard2.0\AppXamarinDAE.dll">
       <PackagePath>AppXamarinDAE.dll</PackagePath>
-      <Modified>2018-11-12T00:09:35.633</Modified>
+      <Modified>2018-11-12T21:53:36.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\Assets\detalle.png">
       <PackagePath>Assets\detalle.png</PackagePath>
@@ -1016,11 +1020,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-12T00:10:01.086</Modified>
+      <Modified>2018-11-12T21:54:02.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-12T00:10:01.088</Modified>
+      <Modified>2018-11-12T21:54:02.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1049,11 +1053,11 @@
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-08T21:19:12.589</Modified>
+      <Modified>2018-11-12T05:54:00.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\Core\AppXamarinDAE.UWP.exe">
       <PackagePath>AppXamarinDAE.UWP.exe</PackagePath>
-      <Modified>2018-11-12T00:10:09.595</Modified>
+      <Modified>2018-11-12T21:54:07.797</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

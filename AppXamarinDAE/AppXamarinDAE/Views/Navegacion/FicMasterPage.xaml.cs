@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using AppXamarinDAE.Views.ImportExportWebAPI;
 
 namespace AppXamarinDAE.Views.Navegacion
 {
@@ -42,6 +43,12 @@ namespace AppXamarinDAE.Views.Navegacion
                         break;*/
                     case "ViCatEdificiosList":
                         FicItemMenu.TargetType = typeof(ViCatEdificiosList);
+                        break;
+                    case "ViImportarWebApi":
+                        FicItemMenu.TargetType = typeof(ViImportarWebApi);
+                        break;
+                    case "ViExportarWebApi":
+                        FicItemMenu.TargetType = typeof(ViExportarWebApi);
                         break;
                     default:
                         break;

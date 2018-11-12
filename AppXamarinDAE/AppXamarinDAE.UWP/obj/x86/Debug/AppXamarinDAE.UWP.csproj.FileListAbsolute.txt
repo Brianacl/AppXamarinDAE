@@ -388,3 +388,4 @@ C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\obj\x86\Debug\Syncfusio
 C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\obj\x86\Debug\Syncfusion.SfShared.UWP.pri.xml
 C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\obj\x86\Debug\ProjectArchitectures.txt
+C:\XAMARIN\AppXamarinDAE\AppXamarinDAE\AppXamarinDAE.UWP\bin\x86\Debug\Newtonsoft.Json.dll

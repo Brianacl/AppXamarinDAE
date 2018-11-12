@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
 using AppXamarinDAE.Views.Cat_generales;
+using AppXamarinDAE.Views.ImportExportWebAPI;
 
 namespace AppXamarinDAE.Services.Navegacion
 {
@@ -17,6 +18,8 @@ namespace AppXamarinDAE.Services.Navegacion
             { typeof(FicVmCatEdificiosList),typeof(ViCatEdificiosList) },
             { typeof(FicVmCatEdificiosItem),typeof(ViCatEdificiosItem) },
             { typeof(FicVmCatEdificiosDetalle),typeof(ViCatEdificiosDetalle) },
+            { typeof(FicVmExportarWebApi),typeof(ViExportarWebApi) },
+            { typeof(FicVmImportarWebApi),typeof(ViImportarWebApi) },
         };
 
         #region METODOS DE IMPLEMENTACION DE LA INTERFACE -> IFicSrvNavigationInventario

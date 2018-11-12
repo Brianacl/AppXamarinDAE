@@ -20,6 +20,6 @@ namespace AppXamarinDAE.Models
         public string Activo { get; set; }
         public string Borrado { get; set; }
 
-        public virtual ICollection<Eva_cat_espacios> Espacios { get; set; }
+        //public virtual ICollection<Eva_cat_espacios> Espacios { get; set; }
     }
 }
