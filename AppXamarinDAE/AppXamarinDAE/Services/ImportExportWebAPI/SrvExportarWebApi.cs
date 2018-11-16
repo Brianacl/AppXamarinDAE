@@ -29,24 +29,38 @@ namespace AppXamarinDAE.Services.ImportExportWebAPI
 
         private async Task<string> PostListEdificios(List<Eva_cat_edificios> postEdificio)
         {
-            const string url = "http://localhost:2643/api/edificios";
+            string url = "http://localhost:2643/api/edificios/";
+            int contar = 0;
             try
             {
-                var json = JsonConvert.SerializeObject(postEdificio);
-
-                json = json.Substring(1, json.Length -2);
-
-                System.Diagnostics.Debug.WriteLine("Esto es un JSON --> "+json);
-
-                var content = new StringContent(json, Encoding.UTF8, "application/json");
-                var response = await Cliente.PostAsync(url, content);
-
-                if (response.IsSuccessStatusCode)
+                foreach (var edificio in postEdificio)
                 {
-                    System.Diagnostics.Debug.WriteLine(@"                Edificios successfully saved.");
+                    var json = JsonConvert.SerializeObject(edificio);
+
+                    if (contar > 0)
+                    {
+                        url = url.Substring(0, url.Length - 1);
+                    }
+                    url += edificio.IdEdificio;
+
+                    //json = json.Substring(1, json.Length - 2);
+
+                    System.Diagnostics.Debug.WriteLine(json);
+                    System.Diagnostics.Debug.WriteLine(url);
+
+                    var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                    var response = await Cliente.PutAsync(url, content);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        System.Diagnostics.Debug.WriteLine(@"                Edificios successfully saved.");
+                    }
+                    else
+                        System.Diagnostics.Debug.WriteLine("Estatus --> " + response.StatusCode);
+
+                    contar++;
                 }
-                else
-                    System.Diagnostics.Debug.WriteLine("Estatus --> " + response.StatusCode);
             }
             catch (Exception e)
             {
