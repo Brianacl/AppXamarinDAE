@@ -36,9 +36,23 @@ namespace AppXamarinDAE.Services.ImportExportWebAPI
 
                 var res = await Cliente.GetAsync(url);
                 System.Diagnostics.Debug.WriteLine("Petición hecha --> "+res.StatusCode);
-                return res.IsSuccessStatusCode ? JsonConvert
-                    .DeserializeObject<List<Eva_cat_edificios>>
-                    (await res.Content.ReadAsStringAsync()) : null;
+
+                if (res.IsSuccessStatusCode && id != 0)
+                {
+                     var edificio = (Eva_cat_edificios) JsonConvert.DeserializeObject<Eva_cat_edificios>
+                     (await res.Content.ReadAsStringAsync());
+
+                    List<Eva_cat_edificios> lista = new List<Eva_cat_edificios>();
+                    lista.Add(edificio);
+
+                    return lista;
+                }
+                if (res.IsSuccessStatusCode)
+                    return  JsonConvert
+                        .DeserializeObject<List<Eva_cat_edificios>>
+                        (await res.Content.ReadAsStringAsync());
+
+                return null;
 
             }
             catch (Exception e)
